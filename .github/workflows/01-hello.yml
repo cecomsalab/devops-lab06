@@ -23,3 +23,8 @@ jobs:
           echo "User: $USER"
           whoami
           cat /etc/passwd
+
+      - name: Prueba Josue
+        run: |
+          echo "Esta es la prueba de Josue"
+          ip -br add show
