@@ -17,3 +17,9 @@ jobs:
           echo "Runner OS: $RUNNER_OS"
           echo "Working folder: $PWD"
           uname -a
+
+      - name: Show me the user name
+        run: |
+          "User: $USER"
+          whoami
+          ping www.google.com -c 4
