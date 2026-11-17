@@ -20,6 +20,6 @@ jobs:
 
       - name: Show me the user name
         run: |
-          "User: $USER"
+          echo "User: $USER"
           whoami
           ping www.google.com -c 4
