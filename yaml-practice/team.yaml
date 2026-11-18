@@ -17,6 +17,7 @@ tools:
   - git
   - terraform
   - azure-cli
+  - docker
 
 # 4. List of maps: the most common shape in workflows (steps, jobs).
 members:
